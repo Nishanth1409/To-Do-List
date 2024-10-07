@@ -1,24 +1,59 @@
-*{
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #ebf2ff !important;
+  font-family: Arial, sans-serif;
 }
 
-.add_new_mobile_btn{
+.add_new_mobile_btn {
   position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 15px 12px;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px;
   background-color: white;
-  width: 100%;
-  /* z-index: 3; */
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 }
 
-@media (min-width: 760px){
-  .add_new_mobile_btn{
-      display: none;
+@media (min-width: 760px) {
+  .add_new_mobile_btn {
+    display: none;
   }
+}
+
+input, textarea {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #f8f9fa !important;
+}
+
+.container {
+  padding: 20px;
+}
+
+.input-group-text {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.task__contents {
+  margin-top: 20px;
 }
